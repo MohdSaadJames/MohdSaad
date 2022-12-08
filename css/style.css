@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Merriweather Sans", sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+  line-height: 2;
+}
+.front {
+  background-color: #eaf6f6;
+  text-align: center;
+  padding-top: 100px;
+}
+.c1 {
+  display: block;
+  position: absolute;
+  right: 70%;
+  top: 45%;
+}
+
+.c2 {
+  display: block;
+  position: absolute;
+  left: 70%;
+  top: 5%;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+h3 {
+  color: #11999e;
+}
+
+.skill-row {
+  margin: 50px auto 50px auto;
+  width: 75%;
+  text-align: left;
+  line-height: 2;
+}
+
+.giphy {
+  float: left;
+  margin: 30px;
+}
+
+hr {
+  width: 10%;
+  height: 0;
+  border-top: solid #d3f0f0e7 10px;
+  border-style: dotted;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin: 30px auto 60px auto;
+}
+
+.contactme {
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border: solid 3px #11cdd4;
+  border-radius: 5px;
+  transition: background-color 0.15s, color 0.15s;
+  cursor: pointer;
+  margin: 10px auto 70px auto;
+}
+
+button:hover {
+  background-color: #11cdd4;
+  color: #eaf6f6;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px;
+}
+
+.footer-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #11999e;
+  font-size: 1.5rem;
+}
+
+.footer-link:hover {
+  color: white;
+}
