@@ -5,6 +5,9 @@
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
 }
+p{
+  line-height: 2;
+}
 h1 {
   font-size: 5.625rem;
   font-family: "Sacramento", cursive;
